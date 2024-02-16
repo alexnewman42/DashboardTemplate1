@@ -30,6 +30,17 @@
 .content {
     background-color: #d4d4d4;
     grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 80px 40px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+
 }
 
 .right {
