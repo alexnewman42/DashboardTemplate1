@@ -18,6 +18,7 @@
     background-color: #1992d4;
     grid-area: sidebar;
     height: 100vh;
+    color: white;
 }
 
 .topbar {
