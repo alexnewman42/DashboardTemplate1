@@ -1,2 +1,2 @@
 # Dashboard Template
-Uses grid only and can be used for a template for future projects.
+Uses grid only and can be used as a template for future projects.
