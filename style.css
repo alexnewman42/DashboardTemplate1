@@ -7,9 +7,9 @@
 .main {
     display: grid;
     grid-template-areas:
-        "sidebar topbar"
-        "sidebar content";
-    grid-template-columns: 1fr 3fr;
+        "sidebar topbar topbar"
+        "sidebar content right";
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 4fr;
 }
 
@@ -30,4 +30,10 @@
 .content {
     background-color: #d4d4d4;
     grid-area: content;
+}
+
+.right {
+    background-color: blue;
+    /* background-color: #d4d4d4; */
+    grid-area: right;
 }
