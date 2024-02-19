@@ -9,7 +9,7 @@
     grid-template-areas:
         "sidebar topbar topbar"
         "sidebar content right";
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 4fr;
 }
 
@@ -53,7 +53,24 @@
 .topbar {
     background-color: white;
     grid-area: topbar;
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+}
 
+.search {
+    background-color: yellow;
+}
+
+.login {
+    background-color: gold;
+}
+
+.welcome {
+    background-color: bisque;
+}
+
+.buttons {
+    background-color: beige;
 }
 
 .content {
