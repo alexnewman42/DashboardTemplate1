@@ -31,7 +31,13 @@
 
 .logo {
     grid-area: logo;
-    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
 }
 
 .top-nav {
