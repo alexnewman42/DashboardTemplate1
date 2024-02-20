@@ -33,6 +33,7 @@
     grid-area: logo;
     display: flex;
     flex-direction: row;
+    background-color: darkblue;
 }
 
 .logo img {
@@ -107,4 +108,11 @@
 
 .trending {
     background-color: red;
+}
+
+.side-card {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
 }
