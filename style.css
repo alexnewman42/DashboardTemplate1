@@ -48,6 +48,7 @@
 
 .top-nav {
     grid-area: top-nav;
+    gap: 30px
 }
 
 .bottom-nav {
