@@ -36,6 +36,9 @@
     grid-area: logo;
     display: flex;
     flex-direction: row;
+    padding: 20px;
+    gap: 16px;
+    align-items: center;
 }
 
 .logo img {
@@ -58,6 +61,15 @@
     align-items: center;
     margin: 16px 40px;
     gap: 20px;
+}
+
+.icon-text img {
+    width: 30px;
+    height: auto;
+}
+
+.icon-text p {
+    font-size: 28px;
 }
 
 .topbar {
