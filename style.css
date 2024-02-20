@@ -33,7 +33,6 @@
     grid-area: logo;
     display: flex;
     flex-direction: row;
-    background-color: darkblue;
 }
 
 .logo img {
@@ -43,12 +42,19 @@
 
 .top-nav {
     grid-area: top-nav;
-    background-color: aqua;
 }
 
 .bottom-nav {
     grid-area: bottom-nav;
-    background-color: aqua;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 16px 40px;
+    gap: 20px;
 }
 
 .topbar {
