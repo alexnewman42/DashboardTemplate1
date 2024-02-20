@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Roboto&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Roboto, sans-serif;
 }
 
 /* grid container */
@@ -9,7 +12,7 @@
     grid-template-areas:
         "sidebar topbar topbar"
         "sidebar content right";
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 380px 3fr 1fr;
     grid-template-rows: 1fr 4fr;
 }
 
