@@ -87,8 +87,21 @@
     padding-left: 32px;
 }
 
+.search input {
+    background-color: #e2e8f0;
+    width: 600px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
 .login {
- 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .welcome {
@@ -104,21 +117,25 @@
 }
 
 .buttons {
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 button {
     background-color: #1992d4;
     color: white;
-    width: 100px;
+    width: 120px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 25px;
     border: 1px solid #1992d4;
     font-size: 20px;
 }
 
 .content {
-    background-color: #d4d4d4;
+    background-color: #e2e8f0;
     grid-area: content;
 }
 
