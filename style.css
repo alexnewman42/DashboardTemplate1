@@ -13,7 +13,7 @@
         "sidebar topbar topbar"
         "sidebar content right";
     grid-template-columns: 380px 3fr 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 200px 4fr;
 }
 
 /* grid items */
@@ -88,7 +88,15 @@
 }
 
 .welcome {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.welcome img {
+    margin-left: 32px;
+    margin-right: 20px;
 }
 
 .buttons {
