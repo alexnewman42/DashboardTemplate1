@@ -48,7 +48,6 @@
 
 .top-nav {
     grid-area: top-nav;
-    gap: 30px
 }
 
 .bottom-nav {
@@ -60,7 +59,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 16px 40px;
+    margin: 0px 40px ;
     gap: 20px;
 }
 
@@ -81,19 +80,19 @@
 }
 
 .search {
-    background-color: yellow;
+    
 }
 
 .login {
-    background-color: gold;
+ 
 }
 
 .welcome {
-    background-color: bisque;
+ 
 }
 
 .buttons {
-    background-color: beige;
+
 }
 
 .content {
