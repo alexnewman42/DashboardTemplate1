@@ -13,7 +13,7 @@
         "sidebar topbar topbar"
         "sidebar content right";
     grid-template-columns: 380px 3fr 1fr;
-    grid-template-rows: 200px 4fr;
+    grid-template-rows: 220px 4fr;
 }
 
 /* grid items */
@@ -89,11 +89,11 @@
 
 .search input {
     background-color: #e2e8f0;
-    width: 600px;
-    height: 30px;
+    width: 740px;
+    height: 40px;
     border: none;
     border-radius: 20px;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
 .login {
