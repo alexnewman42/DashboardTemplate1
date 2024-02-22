@@ -153,7 +153,12 @@ button {
     background-color: white;
     border-radius: 10px;
     border: 1px solid #d4d4d4;
+    display: grid;
+    grid-template-columns: 10px 100%;
+    grid-template-rows: 2fr 1fr;
 }
+
+
 
 .right {
     background-color: blue;
