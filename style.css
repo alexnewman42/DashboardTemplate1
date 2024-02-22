@@ -158,7 +158,12 @@ button {
     grid-template-rows: 2fr 1fr;
 }
 
-
+.color-border {
+    grid-area: 1/1/3/2;
+    background: orange;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 
 .right {
     background-color: blue;
