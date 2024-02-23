@@ -175,7 +175,12 @@ button {
 }
 
 .card-icons {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 40px;
 }
 
 .right {
