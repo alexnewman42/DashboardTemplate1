@@ -184,24 +184,31 @@ button {
 }
 
 .right {
-    background-color: blue;
-    /* background-color: #d4d4d4; */
+    background-color: #e2e8f0;
     grid-area: right;
     display: grid;
     grid-template: 1fr 1fr / 1fr;
 }
 
 .announcements {
-    background-color: pink;
+    padding-top: 40px;
+}
+
+.announcements h2 {
+    padding-bottom: 20px;
 }
 
 .trending {
-    background-color: red;
+    padding-top: 10px;
+}
+
+.trending h2 {
+    padding-bottom: 14px;
 }
 
 .side-card {
     width: 350px;
-    height: 450px;
+    height: 400px;
     background-color: white;
     border-radius: 10px;
 }
