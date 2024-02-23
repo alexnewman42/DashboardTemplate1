@@ -214,8 +214,10 @@ button {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    padding: 40px;
 }
 
 .announcement {
+    border-bottom: 2px solid #e2e8f0;;
 }
 
