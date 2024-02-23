@@ -217,7 +217,15 @@ button {
     padding: 40px;
 }
 
-.announcement {
+.an1, .an2 {
     border-bottom: 2px solid #e2e8f0;;
+}
+
+.an1 h3, .an2 h3, .an3 h3{
+    margin-top: 20px;
+}
+
+.an1 p, .an2 p, .an3 p{
+    margin-top: 5px;
 }
 
